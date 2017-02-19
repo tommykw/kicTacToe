@@ -6,7 +6,7 @@ class Board {
         restart()
     }
 
-    private val cells = Array<Array<Cell>>(3) { arrayOf<Cell>(3) }
+    private val cells = Array<Array<Cell>>(3) { arrayOf<Cell>() }
     private var winner: Player? = null
     private var state: GameState? = null
     private var currentTurn: Player? = null
