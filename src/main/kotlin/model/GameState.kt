@@ -1,3 +1,3 @@
-package com.github.tommykw.kictactoe.model
+package model
 
 enum class GameState { IN_PROGRESS, FINISHED }

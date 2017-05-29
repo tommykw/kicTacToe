@@ -1,5 +1,4 @@
-package com.github.tommykw.kictactoe.model
-
+package model
 
 class Board {
     constructor() {
@@ -51,16 +50,16 @@ class Board {
     private fun isWinningMoveByPlayer(player: Player, currentRow: Int, currentCol: Int): Boolean {
         return (
             cells[currentRow][0].player == player &&
-            cells[currentRow][1].player == player &&
-            cells[currentRow][2].player == player ||
-            cells[0][currentCol].player == player &&
-            cells[1][currentCol].player == player &&
-            cells[2][currentCol].player == player ||
-            currentRow == currentCol &&
-            cells[0][0].player == player &&
-            cells[1][1].player == player &&
-            cells[2][2].player == player
-        )
+                cells[currentRow][1].player == player &&
+                cells[currentRow][2].player == player ||
+                cells[0][currentCol].player == player &&
+                    cells[1][currentCol].player == player &&
+                    cells[2][currentCol].player == player ||
+                currentRow == currentCol &&
+                    cells[0][0].player == player &&
+                    cells[1][1].player == player &&
+                    cells[2][2].player == player
+            )
     }
 
     private fun flipCurrentTurn() {

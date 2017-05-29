@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/kicTacToe.iml" filepath="$PROJECT_DIR$/kicTacToe.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/tictactoe.iml" filepath="$PROJECT_DIR$/.idea/modules/tictactoe.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/tictactoe_main.iml" filepath="$PROJECT_DIR$/.idea/modules/tictactoe_main.iml" group="tictactoe" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/tictactoe_test.iml" filepath="$PROJECT_DIR$/.idea/modules/tictactoe_test.iml" group="tictactoe" />
     </modules>
   </component>
 </project>

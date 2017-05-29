@@ -1,4 +1,4 @@
-package com.github.tommykw.kictactoe.model
+package model
 
 data class Cell(
     var player: Player?
